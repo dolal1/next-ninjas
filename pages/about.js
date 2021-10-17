@@ -1,11 +1,10 @@
-import Link from "next/link";
-import styles from "../styles/Home.module.css";
+import React from "react";
 
-export default function Home() {
+function About() {
   return (
     <div>
-      <h1 className={styles.title}>Home Page</h1>
-      <p className={styles.text}>
+      <h1>About Page</h1>
+      <p>
         Consectetur consectetur ex sit magna est in cupidatat sit ullamco
         laboris et. Qui ullamco in tempor deserunt ullamco et officia elit
         irure. Culpa incididunt Lorem ullamco magna excepteur consectetur
@@ -14,7 +13,7 @@ export default function Home() {
         exercitation sint aute est dolore nisi ad dolore ipsum. Labore in
         aliquip cillum id dolore aliquip consequat labore ex labore veniam.
       </p>
-      <p className={styles.text}>
+      <p>
         Consectetur consectetur ex sit magna est in cupidatat sit ullamco
         laboris et. Qui ullamco in tempor deserunt ullamco et officia elit
         irure. Culpa incididunt Lorem ullamco magna excepteur consectetur
@@ -23,9 +22,8 @@ export default function Home() {
         exercitation sint aute est dolore nisi ad dolore ipsum. Labore in
         aliquip cillum id dolore aliquip consequat labore ex labore veniam.
       </p>
-      <Link href="/ninjas">
-        <a className={styles.btn}>See Ninja Listing</a>
-      </Link>
     </div>
   );
 }
+
+export default About;
